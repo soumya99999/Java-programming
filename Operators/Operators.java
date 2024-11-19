@@ -96,7 +96,7 @@ public class Operators {
         int z = (x < 10) ? x++ : --c;
 //
 //        // Final Expression
-//        x += y - z + (a++ * --c / b);
+        x += y - z + (a++ * --c / b);
 //
         System.out.println("Final values:");
         System.out.println("a = " + a);
