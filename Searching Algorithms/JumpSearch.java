@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+
+// It will work on sorted array only
+// it's Time complexity is O(n^1/2)
 public class JumpSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,7 +37,8 @@ public class JumpSearch {
         int prev = 0;
 
 
-        while (array[Math.min(step, length) - 1] < n) {
+        // It will find the range in which the element is present
+        while (array[Math.min(step, length) - 1] < n) { // - 1 bcz i am taking index 0
             prev = step;
             step += m;
             if (prev >= length) {
@@ -42,6 +46,7 @@ public class JumpSearch {
             }
         }
 
+        // Next applying linear search to find the element
         for (int i = prev; i < Math.min(step, length); i++) {
             if (array[i] == n) {
                 return i;

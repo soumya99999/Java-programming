@@ -22,6 +22,7 @@ public class ArrayPart_1 {
 
 
         int[] array = {1, 2, 3, 4, 5};
+        int[] Barry = new int[array.length];
 
 // Using a for loop
         for (int i = 0; i < array.length; i++) {
@@ -74,5 +75,6 @@ public class ArrayPart_1 {
             System.out.print(num + " ");
         }
 
+        System.out.println(array.toString());
     }
 }

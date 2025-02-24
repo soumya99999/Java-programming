@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// The time complexity is O(log n)
 public class ExponentialSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,7 +35,8 @@ public class ExponentialSearch {
 
         int index = 1;
 
-        while(index < array.length -1 && array[index] <= target){
+        // First to find the range by multiplying 2
+        while(index < array.length - 1 && array[index] <= target) {
             index *= 2;
         }
 

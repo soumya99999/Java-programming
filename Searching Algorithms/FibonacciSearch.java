@@ -32,9 +32,9 @@ public class FibonacciSearch {
         int fib_3 = fib_1 + fib_2;
 
         while(fib_3 <= a.length){
-            fib_1 = fib_2;
-            fib_2 = fib_3;
-            fib_3 = fib_1 + fib_2;
+            fib_1 = fib_2;    // 1   , 1    , 2   , 3    , 5
+            fib_2 = fib_3;    // 1   , 2    , 3   , 5     , 8
+            fib_3 = fib_1 + fib_2;  // 2   , 3  , 5   , 8  , 13
         }
 
         int offset = -1;

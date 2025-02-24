@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+
+// It's time complexity is O(log(log n))
 public class Interpolation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,6 +34,7 @@ public class Interpolation {
 
         while (low <= high && n >= array[low] && n <= array[high]) {
 
+            // If array is of one index
             if (array[high] == array[low]) {
                 if (array[low] == n) {
                     return low;
@@ -44,6 +47,7 @@ public class Interpolation {
             int pos = low + ((high - low) * (n - array[low])) / (array[high] - array[low]);
 
 
+            // It may provide negative or greater index value
             if (pos < 0 || pos >= array.length) {
                 return -1;
             }
@@ -52,7 +56,7 @@ public class Interpolation {
                 return pos;
             }
 
-
+            //if element is less than positioned value
             if (array[pos] < n) {
                 low = pos + 1;
             }
