@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 public class ArrayPart_1 {
     public static void main(String[] args) {
@@ -7,6 +7,8 @@ public class ArrayPart_1 {
 
 // Initializing the array with a size of 5
         numbers = new int[5];
+        // By default, array will initialize an array with a value 0
+        System.out.println(Arrays.toString(numbers));
 
 // Alternative way to declare and initialize an array
         int[] values = {1, 2, 3, 4, 5};
@@ -15,9 +17,15 @@ public class ArrayPart_1 {
         values[0] = 10; // sets the first element to 10
         System.out.println(values[0]); // prints the first element
 
+        String[] strArr = new String[4];
+        // By default, String Array will initialize each reference with null(Special Literal)
+        System.out.println(Arrays.toString(strArr));
+
 
         String[] names = {"Alice", "Bob", "Charlie"};
+        names[0] = "soumya";
         System.out.println("First name: " + names[0]);
+        System.out.println(Arrays.toString(names));
 
 
 

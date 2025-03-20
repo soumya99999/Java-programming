@@ -1,0 +1,103 @@
+1. Basic Knowledge in Programming
+2. Data Type (Integer , character , float , String, array)
+3. Variables
+4. Operators & Math
+5. Conditional Statements (if , if-else,if else-if else)
+6. Loop (for , while , do while) && (break , continue)
+7. Function ( Pre defined , user defined )
+8. Recursion & Backtracking
+9. Time & Space Complexity
+10. Searching Algorithms
+11. Sorting Algorithms
+
+12. OOPS concepts : (Packages, Annotations , Generics , Custom ArrayList , Lambda Expressions , Collection Framework)
+   i. Class and Object – Understanding the blueprint (class) and its instances (objects).
+   ii. Encapsulation – Data hiding using private variables and public methods.
+   iii. Abstraction – Hiding implementation details and exposing only essential functionalities.
+   iv. Inheritance – Acquiring properties and behaviors from a parent class.
+   v. Polymorphism – Achieving multiple forms via method overloading and overriding.
+   vi. Constructor and Destructor – Special methods for object initialization and cleanup.
+   vii. this and super keywords – Referring to the current instance and calling parent class methods.
+   viii. Method Overloading and Overriding – Same method name with different parameters or behavior.
+   ix. Interfaces and Abstract Classes – Implementing multiple inheritance and defining abstract methods.
+   x. Static and Final Keywords – Memory management and restricting modifications.
+
+13. Exception Handling  (Done)
+   i. Try-Catch Block – Handling exceptions gracefully.
+   ii. Finally Block – Code that always executes regardless of exceptions.
+   iii. Throw and Throws – Manually throwing exceptions and propagating them.
+   iv. Checked vs Unchecked Exceptions – Compile-time vs runtime exceptions.
+   v. Custom Exceptions – Creating user-defined exceptions.
+
+14. Stack & Queue (Done)
+15. LinkedList (Done)
+16. Tree
+   i. Binary Tree
+   ii. AVL Tree
+   iii. Segment Tree
+17. Heap Data Structure
+18. HashMap & HashTable
+
+19.Collections Framework
+   i. List Interface (ArrayList, LinkedList, Vector, Stack) – Ordered collections.
+   ii. Set Interface (HashSet, LinkedHashSet, TreeSet) – Unique elements, no duplicates.
+   iii. Queue Interface (PriorityQueue, Deque) – FIFO/LIFO structures.
+   iv. Map Interface (HashMap, LinkedHashMap, TreeMap, Hashtable) – Key-value pairs.
+   v. Iterators – Iterator and ListIterator for traversing collections.
+   vi. Comparator & Comparable – Custom sorting techniques.
+
+20. Multithreading and Concurrency
+   i. Thread Class & Runnable Interface – Creating and managing threads.
+   ii. Thread Lifecycle – New, Runnable, Running, Blocked, Terminated.
+   iii. Synchronization – Preventing race conditions.
+   iv. Inter-Thread Communication – wait(), notify(), notifyAll().
+   v. Thread Pooling – Managing multiple threads efficiently.
+
+21. File Handling (I/O in Java)
+   i. File Class – Creating, deleting, checking file existence.
+   ii. FileReader & FileWriter – Reading/writing character streams.
+   iii. BufferedReader & BufferedWriter – Optimized character stream handling.
+   iv. FileInputStream & FileOutputStream – Reading/writing binary data.
+   v. Serialization & Deserialization – Converting objects into byte streams and vice versa.
+
+22. Java Streams and Lambda Expressions
+   i. Streams API – Processing collections efficiently.
+   ii. Lambda Expressions – Writing concise functional-style code.
+   iii. Method References – Reusing methods in functional programming.
+   iv. Optional Class – Handling null values safely.
+
+23. Java 8+ Features
+   i. Functional Interfaces – Single abstract method interfaces (SAM).
+   ii. Default & Static Methods in Interfaces – Adding methods without breaking existing implementations.
+   iii. New Date & Time API – LocalDate, LocalTime, LocalDateTime.
+   iv. Stream API Enhancements – Improved functional programming utilities.
+
+24. JDBC (Java Database Connectivity)
+   i. Connection Interface – Establishing database connections.
+   ii. Statement & PreparedStatement – Executing SQL queries.
+   iii. ResultSet – Handling query results.
+   iv. Transaction Management – Commit and rollback operations.
+
+25. Java Networking
+   i. Sockets and ServerSockets – Creating network communication.
+   ii. URL & HttpURLConnection – Handling web requests.
+
+26. Design Patterns in Java
+   i. Singleton – Ensuring a single instance of a class.
+   ii. Factory Pattern – Creating objects dynamically.
+   iii. Observer Pattern – Implementing event-driven programming.
+   iv. Builder Pattern – Simplifying object creation with multiple parameters.
+
+27. Java Reflection API
+   i. Inspecting classes, methods, and fields at runtime.
+   ii. Dynamic method invocation using reflection.
+
+28. Java Memory Management & Garbage Collection
+   i. Heap & Stack Memory – Understanding memory allocation.
+   ii. Garbage Collection – Automatic memory management.
+   iii. Finalization – Cleaning up objects before garbage collection.
+
+29. Java Web Development
+   i. Servlets & JSP – Building web applications.
+   ii. Spring Framework – Developing enterprise applications.
+   iii. Spring Boot – Simplified microservices development.

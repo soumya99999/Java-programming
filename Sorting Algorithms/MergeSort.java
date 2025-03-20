@@ -26,11 +26,10 @@ public class MergeSort {
 
         int mid = arr.length / 2;
 
-        int[] left = Arrays.copyOfRange(arr, 0, mid);
-        int[] right = Arrays.copyOfRange(arr, mid, arr.length);
-
-        left = mergesort(left);
-        right = mergesort(right);
+        int[] left = mergesort(Arrays.copyOfRange(arr,0,mid));
+        System.out.println("Left Part = "+Arrays.toString(left));
+        int[] right = mergesort(Arrays.copyOfRange(arr,mid,arr.length));
+        System.out.println("Right Part = "+Arrays.toString(right));
 
         return merge(left, right);
     }

@@ -10,7 +10,7 @@ public class ListExample {
         list.add("Apple");  // Duplicates allowed
 
         System.out.println("List: " + list);
-        list.remove("Banana");  // everything is a object
+        list.remove("Banana");  // everything is an object
         System.out.println("After removal: " + list);
 
         System.out.println("Element at index 1: " + list.get(1));

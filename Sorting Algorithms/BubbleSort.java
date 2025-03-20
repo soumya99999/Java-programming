@@ -23,8 +23,6 @@ public class BubbleSort {
     }
 
     private static int[] bubbleSortMethod(int[] a) {
-
-
         for(int i = 0;i<a.length - 1;i++){
             int flag = 0;
             for(int j = 0; j< a.length -1 -i;j++){

@@ -1,0 +1,6 @@
+
+Access Modifier	Class	Same Package	Subclass (Different Package)	Other Packages
+public	       ✅ Yes	✅ Yes	           ✅ Yes	                     ✅ Yes
+protected	   ✅ Yes	✅ Yes	           ✅ Yes (via inheritance)	     ❌ No (unless inherited)
+default	       ✅ Yes	✅ Yes	           ❌ No	                     ❌ No
+private	       ✅ Yes	❌ No	           ❌ No	                     ❌ No

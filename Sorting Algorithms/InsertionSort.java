@@ -30,7 +30,6 @@ public class InsertionSort {
                  a[temp+1] = a[temp];
                  temp--;
              }
-
              a[temp+1] = j;
          }
          return a;

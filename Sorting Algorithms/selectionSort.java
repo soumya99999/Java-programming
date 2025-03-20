@@ -26,7 +26,6 @@ public class selectionSort {
     }
 
     private static int[] selectionSortMethod(int[] a) {
-
         for(int i = 0;i<a.length - 1; i++){
             int min = i;
             for(int j = i + 1;j < a.length ; j++){
@@ -40,8 +39,6 @@ public class selectionSort {
                 a[min] = temp;
             }
         }
-
-
         return a;
     }
 }

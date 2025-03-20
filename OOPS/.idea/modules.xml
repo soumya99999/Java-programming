@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractDemo/AbstractDemo.iml" filepath="$PROJECT_DIR$/AbstractDemo/AbstractDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Access/Access.iml" filepath="$PROJECT_DIR$/Access/Access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP3/OOP3.iml" filepath="$PROJECT_DIR$/OOP3/OOP3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS.iml" filepath="$PROJECT_DIR$/OOPS.iml" />
+    </modules>
+  </component>
+</project>

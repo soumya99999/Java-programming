@@ -27,34 +27,33 @@ public class QuickSort {
             return;
         }
 
-        int s = low;
-        int e = high;
-        int m = s + (e - s) / 2;
-        int pivot = a[m];
+        int start = low;
+        int end = high;
+        int middle = start + (end - start) / 2;
+        int pivot = a[middle];
 
-        while (s <= e) {
+        while (start <= end) {
 
             // also a reason why if its already sorted it will not swap
-            while (a[s] < pivot) {
-                s++;
+            while (a[start] < pivot) {
+                start++;
             }
-            while (a[e] > pivot) {
-                e--;
+            while (a[end] > pivot) {
+                end--;
             }
 
-            if (s <= e) {
-                int temp = a[s];
-                a[s] = a[e];
-                a[e] = temp;
-                s++;
-                e--;
+            // When Start
+            if (start <= end) {
+                int temp = a[start];
+                a[start] = a[end];
+                a[end] = temp;
+                start++;
+                end--;
             }
         }
 
         // now my pivot is at correct index, please sort two halves now
-        quickSortMethod(a, low, e);
-        quickSortMethod(a, s, high);
+        quickSortMethod(a, low, end);
+        quickSortMethod(a, start, high);
     }
-
-
 }
