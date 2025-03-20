@@ -1,0 +1,71 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore compiled Java classes
+/out/
+/target/
+/build/
+/bin/
+
+# Ignore logs, temp files, and caches
+/log/
+*.log
+*.tmp
+/.gradle/
+/.gradle/
+/.mvn/
+/node_modules/
+/coverage/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore dependency directories
+lib/
+
+# Ignore Maven and Gradle dependencies
+.mvn/
+!**/src/main/**/.mvn
+!**/src/test/**/.mvn
+
+# Ignore virtual environment files
+venv/
+.env
+.env.local
+
+# Ignore test reports
+/test-output/
+reports/
+
+# Ignore Lombok generated files
+*.lombok.config
+
+# Ignore JetBrains IDE shared indexes
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/modules.xml
+.idea/artifacts/
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/sqlDataSources.xml
+.idea/uiDesigner.xml
+.idea/httpRequests
+
+# Ignore classpath and module settings
+.classpath
+.project
+.settings/
+
+# Ignore local run configurations
+*.run.xml
